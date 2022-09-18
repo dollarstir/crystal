@@ -27,7 +27,7 @@ function begin($title)
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>Crystal Jewelry - '.$title.'</title>
-        <meta name="description" content="Nasea books is one of the Best E-book stores in the world">
+        <meta name="description" content="Crystal Jewelry Shop">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
@@ -135,7 +135,7 @@ function footer()
                                     <ul>
                                         <li><a href="aboutus">About us</a></li>
                                         
-                                        <li><a href="books">New products</a></li>
+                                        <li><a href="products">New products</a></li>
                                         
                                     </ul>
                                 </div>
@@ -150,7 +150,7 @@ function footer()
                                     <ul>
                                         <li><a href="contact">Contact us</a></li>
                                         <!--<li><a href="">Sitemap</a></li>-->
-                                        <li><a href="books">books</a></li>
+                                        <li><a href="products">Products</a></li>
                                         <li><a href="account">My account </a></li>
                                     </ul>
                                 </div>
@@ -254,7 +254,7 @@ function footer1()
                                     <ul>
                                         <li><a href="../aboutus">About us</a></li>
                                         
-                                        <li><a href="../books">New products</a></li>
+                                        <li><a href="../products">New products</a></li>
                                        
                                     </ul>
                                 </div>
@@ -269,7 +269,7 @@ function footer1()
                                     <ul>
                                         <li><a href="../contact">Contact us</a></li>
                                         <!--<li><a href="">Sitemap</a></li>-->
-                                        <li><a href="../books">books</a></li>
+                                        <li><a href="../products">Products</a></li>
                                         <li><a href="../account">My account </a></li>
                                     </ul>
                                 </div>
@@ -441,7 +441,7 @@ function footer2()
                                     <ul>
                                         <li><a href="contact">Contact us</a></li>
                                         <!--<li><a href="">Sitemap</a></li>-->
-                                        <li><a href="books">books</a></li>
+                                        <li><a href="products">Products</a></li>
                                         <li><a href="account">My account </a></li>
                                     </ul>
                                 </div>
@@ -655,7 +655,7 @@ function mainmenu($pid)
 
     $pages = [
         'Home' => 'home',
-        'Product' => 'product',
+        'Products' => 'products',
         'Categories' => $cats,
         'About' => 'aboutus',
         'Contact' => 'contact',
@@ -717,7 +717,7 @@ function mobilemenu()
 {
     $pages = [
         'Home' => 'home',
-        'Books' => 'books',
+        'Products' => 'products',
         'Categories' => [
             'Poem' => 'poem',
             'History' => 'history',
@@ -739,7 +739,7 @@ function mobilemenu()
              
                         <ul id="nav">
                                 <li><a href="home">Home</a></li>
-                                <li><a href="books">Books</a></li>
+                                <li><a href="products">Products</a></li>
                                 <li><a href="#">Categories</a>
                                     <ul>';
     $res = fetchAll('category');
@@ -1088,27 +1088,27 @@ function mypagecount($type, $perpage, $ct)
 
     $canto = $ct - 1;
     if ($type == 'main') {
-        $mimi = ($ct == 1) ? '' : '<li><a href="books?page='.$canto.'" class="angle"><i class="fa fa-angle-left"></i></a></li>';
+        $mimi = ($ct == 1) ? '' : '<li><a href="products?page='.$canto.'" class="angle"><i class="fa fa-angle-left"></i></a></li>';
         $result = $mimi;
         for ($page = 1; $page <= $total_pages; ++$page) {
             $conto = $ct + 1;
             $combo = ($ct == $page) ? 'active' : '';
-            $combo2 = ($ct == $total_pages) ? '' : '<li><a href="books?page='.$conto.'" class="angle"><i class="fa fa-angle-right"></i></a></li>';
+            $combo2 = ($ct == $total_pages) ? '' : '<li><a href="products?page='.$conto.'" class="angle"><i class="fa fa-angle-right"></i></a></li>';
             $result .= '
-                <li><a href="books?page='.$page.'" class="'.$combo.'">'.$page.'</a></li>
+                <li><a href="products?page='.$page.'" class="'.$combo.'">'.$page.'</a></li>
                   
                   
               ';
         }
     } elseif ($type == 'sub') {
-        $mimi = ($ct == 1) ? '' : '<li><a href="books?page='.$canto.'" class="angle"><i class="fa fa-angle-left"></i></a></li>';
+        $mimi = ($ct == 1) ? '' : '<li><a href="products?page='.$canto.'" class="angle"><i class="fa fa-angle-left"></i></a></li>';
         $result = $mimi;
         for ($page = 1; $page <= $total_pages; ++$page) {
             $conto = $ct + 1;
             $combo = ($ct == $page) ? 'active' : '';
-            $combo2 = ($ct == $total_pages) ? '' : '<li><a href="books?page='.$conto.'" class="angle"><i class="fa fa-angle-right"></i></a></li>';
+            $combo2 = ($ct == $total_pages) ? '' : '<li><a href="products?page='.$conto.'" class="angle"><i class="fa fa-angle-right"></i></a></li>';
             $result .= '
-                <li><a href="books?page='.$page.'" class="'.$combo.'">'.$page.'</a></li>
+                <li><a href="products?page='.$page.'" class="'.$combo.'">'.$page.'</a></li>
                   
                   
               ';
@@ -1301,7 +1301,7 @@ function mainmenu1($pid)
     }
     $pages = [
         'Home' => 'home',
-        'Books' => 'books',
+        'Products' => 'products',
         'Categories' => $cats,
         'About' => 'aboutus',
         'Contact' => 'contact',
@@ -1363,7 +1363,7 @@ function mobilemenu1()
 {
     $pages = [
         'Home' => 'home',
-        'Books' => 'books',
+        'Products' => 'products',
         'Categories' => [
             'Poem' => 'poem',
             'History' => 'history',
@@ -1385,7 +1385,7 @@ function mobilemenu1()
              
                         <ul id="nav">
                                 <li><a href="../home">Home</a></li>
-                                <li><a href="../books">Books</a></li>
+                                <li><a href="../products">Products</a></li>
                                 <li><a href="#">Categories</a>
                                     <ul>';
     $res = fetchAll('category');

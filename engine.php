@@ -17,7 +17,7 @@ $router = new Router([
     ),
 
     new Route(
-        '/books',
+        '/products',
         function ($context) {
             return Viewer::view('main/products.php', $context);
         }

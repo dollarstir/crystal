@@ -1,6 +1,6 @@
 <?php involve('admin');
 
-adminhead(' View books');
+adminhead(' View Product '); ?>
 
 ?>
 

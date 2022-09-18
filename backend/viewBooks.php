@@ -20,14 +20,14 @@ adminhead(' View books');
                             <div class="white_card_header">
                                 <div class="box_header m-0">
                                     <div class="main-title">
-                                        <h3 class="m-0">View Book</h3>
+                                        <h3 class="m-0">View Product</h3>
                                     </div>
                                 </div>
                             </div>
                             <div class="white_card_body">
                                 <div class="QA_section">
                                     <div class="white_box_tittle list_header">
-                                        <h4>View Book</h4>
+                                        <h4>View Product</h4>
                                         <div class="box_right d-flex lms_block">
                                             <div class="serach_field_2">
                                                 <div class="search_inner">

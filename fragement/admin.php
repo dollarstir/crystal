@@ -218,11 +218,11 @@ function mainsidebar()
             <div class="icon_menu">
                 <img src="img/menu-icon/dashboard.svg" alt="">
             </div>
-            <span>Books</span>
+            <span>Product</span>
         </a>
         <ul>
-            <li><a class="active" href="newbook">Add Books</a></li>
-            <li><a href="viewbooks">view Books</a></li>
+            <li><a class="active" href="newproduct">Add Books</a></li>
+            <li><a href="viewproduct">view Product</a></li>
             <!-- <li><a href="index_3.php">Dark Menu</a></li> -->
         </ul>
     </li>

@@ -180,14 +180,14 @@ $router = new Router([
     ),
 
     new Route(
-        '/newbook',
+        '/newproduct',
         function ($context) {
             return Viewer::view('backend/addBooks.php', $context);
         }
     ),
 
     new Route(
-        '/viewbooks',
+        '/viewproduct',
         function ($context) {
             return Viewer::view('backend/viewBooks.php', $context);
         }

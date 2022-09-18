@@ -198,7 +198,7 @@ function footer()
             <div class="row bt-2">
                 <div class="col-lg-6 col-md-6 col-12">
                     <div class="copy-right-area">
-                        <p>&copy; '.date('Y').' <strong> '.$app['appname'].'</strong>  by <a href="https://github.com/dollarstir" target="_blank"><strong>Dollarsoft</strong></a></p>
+                        <p>&copy; '.date('Y').' <strong> '.$app['appname'].'</strong> </p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-12">

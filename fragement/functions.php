@@ -2,10 +2,7 @@
 
  initsession();
 
-// created on 4th June , 2022
-// Author : Frederick Ennin (Dollarstir)
-//
-// Email: kpin463@gmail.com
+
 include 'deep.php';
 
 function logiccategory()

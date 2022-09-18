@@ -33,18 +33,18 @@ function begin($title)
 
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website">
-        <meta property="og:url" content="https://naseabooks.com/">
-        <meta property="og:title" content="Nasea Books">
+        <meta property="og:url" content="http://crystaljewelry.beauty/">
+        <meta property="og:title" content="Crysyal Jewelry">
         <meta property="og:description"
-            content="Nasea books is one of the Best E-book stores in the world">
+            content="Best Jewelry Shop">
         <meta property="og:image" content="yolkassets/upload/logo.png">
     
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image">
-        <meta property="twitter:url" content="https://naseabooks.com/">
-        <meta property="twitter:title" content="Nasea Books ">
+        <meta property="twitter:url" content="http://crystaljewelry.beauty/">
+        <meta property="twitter:title" content="Crystal Jewelry ">
         <meta property="twitter:description"
-            content="Nasea books is one of the Best E-book stores in the world">
+            content="Best Jewelry Shop">
         <meta property="twitter:image" content="yolkassets/upload/logo.png">
 
         <!-- Favicon -->

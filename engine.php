@@ -108,7 +108,7 @@ $router = new Router([
     ),
 
     new Route(
-        '/poem/{id}',
+        '/blog/{id}',
         function ($context) {
             return Viewer::view('main/peomd.php', $context);
         }

@@ -26,7 +26,7 @@ function begin($title)
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Nasea Book - '.$title.'</title>
+        <title>Crystal Jewelry - '.$title.'</title>
         <meta name="description" content="Nasea books is one of the Best E-book stores in the world">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 

@@ -12,7 +12,7 @@ function adminhead($title)
     
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <title>Nasea Admin - '.$title.'</title>
+        <title>Crystal Jewelry - '.$title.'</title>
     
     
         <link rel="stylesheet" href="backend/css/bootstrap1.min.css" />

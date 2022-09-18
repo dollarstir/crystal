@@ -656,7 +656,7 @@ function mainmenu($pid)
         'Categories' => $cats,
         'About' => 'aboutus',
         'Contact' => 'contact',
-        'Free Peoms' => 'poems',
+        'Blog' => 'blog',
         'View Cart' => 'cart',
     ];
 
@@ -716,13 +716,13 @@ function mobilemenu()
         'Home' => 'home',
         'Products' => 'products',
         'Categories' => [
-            'Poem' => 'poem',
+            'Blog' => 'blog',
             'History' => 'history',
             'Romance' => 'romance',
         ],
         'About' => 'aboutus',
         'Contact' => 'contact',
-        'Free Peoms' => 'poems',
+        'Blog' => 'blog',
         'View Cart' => 'cart',
     ];
 
@@ -751,7 +751,7 @@ function mobilemenu()
                                 <li><a href="contact">Contact</a>
                                     
                                 </li>
-                                <li><a href="poems">Free Peoms</a>
+                                <li><a href="blog">Blog</a>
                                     
                                 </li>
                                 <li><a href="cart">View Cart</a>
@@ -1302,7 +1302,7 @@ function mainmenu1($pid)
         'Categories' => $cats,
         'About' => 'aboutus',
         'Contact' => 'contact',
-        'Free Peoms' => 'poems',
+        'Blog' => 'blog',
         'View Cart' => 'cart',
     ];
 
@@ -1362,13 +1362,13 @@ function mobilemenu1()
         'Home' => 'home',
         'Products' => 'products',
         'Categories' => [
-            'Poem' => 'poem',
+            'Blog' => 'blog',
             'History' => 'history',
             'Romance' => 'romance',
         ],
         'About' => 'aboutus',
         'Contact' => 'contact',
-        'Free Peoms' => 'poems',
+        'Blog' => 'blog',
         'View Cart' => 'cart',
     ];
 
@@ -1397,7 +1397,7 @@ function mobilemenu1()
                                 <li><a href="../contact">Contact</a>
                                     
                                 </li>
-                                <li><a href="../poems">Free Peoms</a>
+                                <li><a href="../blog">Blog</a>
                                     
                                 </li>
                                 <li><a href="../cart">View Cart</a>

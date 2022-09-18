@@ -37,7 +37,7 @@ function begin($title)
         <meta property="og:title" content="Crysyal Jewelry">
         <meta property="og:description"
             content="Best Jewelry Shop">
-        <meta property="og:image" content="yolkassets/upload/logo.png">
+        <meta property="og:image" content="yolkassets/upload/logo2.png">
     
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image">
@@ -45,7 +45,7 @@ function begin($title)
         <meta property="twitter:title" content="Crystal Jewelry ">
         <meta property="twitter:description"
             content="Best Jewelry Shop">
-        <meta property="twitter:image" content="yolkassets/upload/logo.png">
+        <meta property="twitter:image" content="yolkassets/upload/logo2.png">
 
         <!-- Favicon -->
         <link rel="apple-touch-icon" sizes="57x57" href="main/apple-icon-57x57.png">
@@ -135,7 +135,7 @@ function footer()
                                     <ul>
                                         <li><a href="aboutus">About us</a></li>
                                         
-                                        <li><a href=books">New products</a></li>
+                                        <li><a href="books">New products</a></li>
                                         
                                     </ul>
                                 </div>

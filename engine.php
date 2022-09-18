@@ -115,7 +115,7 @@ $router = new Router([
     ),
 
     new Route(
-        '/poems',
+        '/blog',
         function ($context) {
             return Viewer::view('main/mypeoms.php', $context);
         }

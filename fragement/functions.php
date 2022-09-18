@@ -556,6 +556,8 @@ s0.parentNode.insertBefore(s1,s0);
 }
 function topbars()
 {
+    $api = fetchAll('settings');
+    $app = $api[0];
     $soday = (!isset($_SESSION['user'])) ? '<li><a href="login">Sign in</a></li>' : '<li><button class="logout">Logout</button></li>';
 
     return '<!-- header-top-area-start -->
@@ -604,14 +606,14 @@ function topbars()
                 <div class="col-lg-3 col-md-5 col-12">
                     <div class="header-search">
                     <form action="search">
-                    <input type="text" placeholder="Search book by name or price" name="keyword" />
+                    <input type="text" placeholder="Search product by name or price" name="keyword" />
                     <button type="submit" class="mybtnsearch"><i class="fa fa-search"></i></button>
                 </form>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-4 col-12">
                     <div class="logo-area text-center logo-xs-mrg">
-                        <a href="home"><img src="yolkassets/upload/logo.png" alt="logo" style="width:200px;height:150px;" /></a>
+                        <a href="home"><img src="yolkassets/upload/'.$app['applogo'].'" alt="logo" style="width:200px;height:150px;" /></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-12">

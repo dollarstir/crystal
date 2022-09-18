@@ -655,7 +655,7 @@ function mainmenu($pid)
 
     $pages = [
         'Home' => 'home',
-        'Books' => 'books',
+        'Product' => 'product',
         'Categories' => $cats,
         'About' => 'aboutus',
         'Contact' => 'contact',

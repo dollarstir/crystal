@@ -8,8 +8,8 @@ echo '<!doctype html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Nasea Book - Book Detail</title>
-        <meta name="description" content="Nasea books is one of the Best E-book stores in the world">
+        <title>Crystal Jewelry - Product Detail</title>
+        <meta name="description" content="Crystal jewelry">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Favicon -->
         <!-- Favicon -->
@@ -173,7 +173,7 @@ echo '<!doctype html>
 						<div class="product-info-area mt-80">
 							<!-- Nav tabs -->
 							<ul class="nav">
-								<li><a class="active" href="#Details" data-toggle="tab">Book Description</a></li>
+								<li><a class="active" href="#Details" data-toggle="tab">Product Description</a></li>
 								<li><a href="#Reviews" data-toggle="tab">Reviews 3</a></li>
 							</ul>
 							<div class="tab-content">
@@ -229,7 +229,7 @@ echo '<!doctype html>
                                                 $att = $at[0];
 
                                              ?>
-                                            <h4><?php echo $att['authname']; ?> Book</h4>
+                                            <h4><?php echo $att['authname']; ?> Product</h4>
                                         </div>
                                         <!-- <div class="review-field-ratings">
                                             <span>Your Rating <sup>*</sup></span>

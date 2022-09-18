@@ -65,25 +65,25 @@ begin('Welcome');
     <!-- slider-area-start -->
     <div class="slider-area">
         <div class="slider-active owl-carousel">
-            <div class="single-slider pt-125 pb-130 bg-img" style="background-image:url(main/img/slider/7.jpg);">
+            <div class="single-slider pt-125 pb-130 bg-img" style="background-image:url(main/img/slider/j1.jpg);">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-5">
                             <div class="slider-content slider-animated-1 text-center">
                                 <h1>Huge Sale</h1>
-                                <h2 style="color:#f1f1f1;">Naseabooks</h2>
-                                <h3 style="color:#f1f1f1;">Get a book for less than 20gh</h3>
-                                <a href="books">Shop now</a>
+                                <h2 style="color:#f1f1f1;">Crystal Jewelry</h2>
+                                <h3 style="color:#f1f1f1;">Get a jewelry at less price</h3>
+                                <a href="products">Shop now</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="single-slider slider-h1-2 pt-215 pb-100 bg-img" style="background-image:url(main/img/slider/8.jpg);">
+            <div class="single-slider slider-h1-2 pt-215 pb-100 bg-img" style="background-image:url(main/img/slider/j2.jpg);">
                 <div class="container">
                     <div class="slider-content slider-content-2 slider-animated-1">
                         <h1>We can help get your</h1>
-                        <h2>Books in Order</h2>
+                        <h2>Jewelry in Order</h2>
                         <h3>and Accessories</h3>
                         <a href="contact">Contact Us Today!</a>
                     </div>
@@ -105,7 +105,7 @@ begin('Welcome');
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title bt text-center pt-100 mb-30 section-title-res">
-                        <h2>Latest Books</h2>
+                        <h2>Latest Products</h2>
                     </div>
                 </div>
             </div>

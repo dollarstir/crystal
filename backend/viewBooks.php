@@ -52,7 +52,7 @@ adminhead(' View Product '); ?>
                                                     <th scope="col">Title</th>
                                                     <th scope="col">author</th>
                                                     <th scope="col">Description</th>
-                                                    <th scope="col">Price (Gh&#8373;)</th>
+                                                    <th scope="col">Price ($)</th>
                                                     <th scope="col">Category</th>
                                                     <th scope="col">Front Cover</th>
                                                     <th scope="col">Back Cover</th>

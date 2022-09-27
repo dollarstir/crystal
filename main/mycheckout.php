@@ -305,7 +305,7 @@ if (isset($_SESSION['user'])) {
                                             <tfoot>
                                                 <tr class="cart-subtotal">
                                                     <th>Cart Subtotal</th>
-                                                    <td><span class="amount">&#8373;<span id="mku"><?php echo cartsubtotal(); ?></span></span></td>
+                                                    <td><span class="amount">$<span id="mku"><?php echo cartsubtotal(); ?></span></span></td>
                                                 </tr>
                                                 <tr class="shipping">
                                                   
@@ -327,7 +327,7 @@ if (isset($_SESSION['user'])) {
                                                 </tr>
                                                 <tr class="order-total">
                                                     <th>Order Total</th>
-                                                    <td><strong><span class="amount">&#8373;<span id="ordtt"><?php echo carttotal(); ?></span></span></strong>
+                                                    <td><strong><span class="amount">$<span id="ordtt"><?php echo carttotal(); ?></span></span></strong>
                                                     </td>
                                                 </tr>								
                                             </tfoot>

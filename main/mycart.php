@@ -106,7 +106,7 @@ begin('Cart');
                                     <tr class="cart-subtotal">
                                         <th>Subtotal</th>
                                         <td>
-                                            <span class="amount">&#8373;<span id="mku"><?php echo cartsubtotal(); ?></span></span>
+                                            <span class="amount">$<span id="mku"><?php echo cartsubtotal(); ?></span></span>
                                         </td>
                                     </tr>
                                     <tr class="shipping">
@@ -117,7 +117,7 @@ begin('Cart');
                                     <tr class="order-total">
                                         <th>Total</th>
                                         <td>
-                                        <strong><span class="amount">&#8373;<span id="ordtt"><?php echo carttotal(); ?></span></span></strong>
+                                        <strong><span class="amount">$<span id="ordtt"><?php echo carttotal(); ?></span></span></strong>
                                         </td>
                                     </tr>
                                 </tbody>

@@ -142,7 +142,7 @@ echo '<!doctype html>
 										</div> -->
 										<div class="product-info-price">
 											<div class="price-final">
-												<span>&#8373;<?php echo $bk['price']; ?></span>
+												<span>$<?php echo $bk['price']; ?></span>
 												<!-- <span class="old-price">$40.00</span> -->
 											</div>
 										</div>

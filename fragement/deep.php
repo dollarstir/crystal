@@ -459,7 +459,7 @@ function previewproduct($id)
         <h3>'.$book['title'].'</h3>
         <p>Author: <small>'.$au['authname'].'</small></p><br>
         <p><div class="price">
-            <span>GH&#8373; '.$book['price'].'</span>
+            <span>$'.$book['price'].'</span>
         </div></p>
 
         

@@ -68,8 +68,8 @@ if (isset($_SESSION['user'])) {
 											Dashboard</a>
 										<a href="#orders" data-toggle="tab"><i class="fa fa-cart-arrow-down"></i>
 											Orders</a>
-										<a href="#download" class="active" data-toggle="tab"><i class="fa fa-cloud-download"></i>
-											Download</a>
+										<!-- <a href="#download" class="active" data-toggle="tab"><i class="fa fa-cloud-download"></i>
+											Download</a> -->
 										<!-- <a href="#payment-method" data-toggle="tab"><i class="fa fa-credit-card"></i>
 											Payment
 											Method</a> -->
@@ -107,7 +107,7 @@ if (isset($_SESSION['user'])) {
 										<!-- Single Tab Content End -->
 
 										<!-- Single Tab Content Start -->
-										<div class="tab-pane fade" id="orders" role="tabpanel">
+										<div class="tab-pane fade show active" id="orders" role="tabpanel">
 											<div class="myaccount-content">
 												<h5>Orders</h5>
 												<div class="myaccount-table table-responsive text-center">
@@ -132,7 +132,7 @@ if (isset($_SESSION['user'])) {
 										<!-- Single Tab Content End -->
 
 										<!-- Single Tab Content Start -->
-										<div class="tab-pane fade show active" id="download" role="tabpanel">
+										<div class="tab-pane fade" id="download" role="tabpanel">
 											<div class="myaccount-content">
 												<h5>Downloads</h5>
 												<div class="myaccount-table table-responsive text-center">

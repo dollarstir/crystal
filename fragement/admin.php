@@ -221,7 +221,7 @@ function mainsidebar()
             <span>Product</span>
         </a>
         <ul>
-            <li><a class="active" href="newproduct">Add Books</a></li>
+            <li><a class="active" href="newproduct">Add Product</a></li>
             <li><a href="viewproduct">view Product</a></li>
             <!-- <li><a href="index_3.php">Dark Menu</a></li> -->
         </ul>

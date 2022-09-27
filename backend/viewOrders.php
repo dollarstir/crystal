@@ -52,8 +52,8 @@ adminhead('Orders');
                                                     <th scope="col">Order No</th>
                                                     <th scope="col">Book Name</th>
                                                     <th scope="col">Customer Name</th>
-                                                    <th scope="col">Discount Price (Gh&#8373;)</th>
-                                                    <th scope="col">Price (Gh&#8373;)</th>
+                                                    <th scope="col">Discount Price ($)</th>
+                                                    <th scope="col">Price ($)</th>
                                                     <th scope="col">Discount (%)</th>
                                                     <th scope="col">Date Added</th>
                                                     <!-- <th scope="col">Back Cover</th>

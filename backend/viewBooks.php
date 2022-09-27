@@ -33,7 +33,7 @@ adminhead(' View Product '); ?>
                                                 <div class="search_inner">
                                                     <form Active="#" class="">
                                                         <div class="search_field">
-                                                            <input id="myInput" type="text" placeholder="Search book here...">
+                                                            <input id="myInput" type="text" placeholder="Search product here...">
                                                         </div>
                                                         <!-- <button type="submit"> <i class="ti-search"></i> </button> -->
                                                     </form>

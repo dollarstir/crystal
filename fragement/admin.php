@@ -309,11 +309,11 @@ function mainsidebar()
             <div class="icon_menu">
                 <img src="img/menu-icon/dashboard.svg" alt="">
             </div>
-            <span>Poems</span>
+            <span>Blog</span>
         </a>
         <ul>
-            <li><a class="active" href="newpoem">Add Poems</a></li>
-            <li><a href="viewpoems">view Poems</a></li>
+            <li><a class="active" href="newpoem">Add Blog</a></li>
+            <li><a href="viewpoems">view Blog</a></li>
             <!-- <li><a href="index_3.php">Dark Menu</a></li> -->
         </ul>
     </li>

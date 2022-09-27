@@ -2,7 +2,6 @@
 
  initsession();
 
-
 include 'deep.php';
 
 function logiccategory()
@@ -810,7 +809,7 @@ function books($limit = '')
                 <h4><a href="product/'.$row['id'].'">'.$row['title'].'</a></h4>
                 <div class="product-price">
                     <ul>
-                        <li>&#8373; '.$row['price'].'</li>
+                        <li>$'.$row['price'].'</li>
                     </ul>
                 </div>
             </div>

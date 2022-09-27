@@ -57,7 +57,7 @@ function viewcartmain()
             $tc .= '<tr>
             <td class="product-thumbnail"><a href="#"><img src="yolkassets/upload/'.$value['bookcover'].'" alt="man" /></a></td>
             <td class="product-name"><a href="#">'.$value['bookname'].'</a></td>
-            <td class="product-price"><span class="amount">&#8373;'.$value['bookprice'].'</span></td>
+            <td class="product-price"><span class="amount">$'.$value['bookprice'].'</span></td>
             <!--<td class="product-quantity"><input type="number" value="1"></td>-->
             <!--<td class="product-subtotal">£165.00</td>-->
             <td class="product-remove"><button id="'.$value['bookid'].'" class="removefromcart" style="border:none;"><i class="fa fa-trash" style="color:red;"></i></button></td>
@@ -93,7 +93,7 @@ function minicart()
             </div>
             <div class="cart-info">
                 <h5><a href="main/#">'.$value['bookname'].'</a></h5>
-                <p>&#8373;'.$value['bookprice'].'</p>
+                <p>$'.$value['bookprice'].'</p>
             </div>
             <div class="cart-icon">
                 <button id="'.$value['bookid'].'" class="removefromcart" style="border:none;background-color:transparent;"><i class="fa fa-remove" style="color:red;font-weight:bold;"></i></button>
@@ -120,7 +120,7 @@ function minicart1()
             </div>
             <div class="cart-info">
                 <h5><a href="main/#">'.$value['bookname'].'</a></h5>
-                <p>&#8373;'.$value['bookprice'].'</p>
+                <p>$'.$value['bookprice'].'</p>
             </div>
             <div class="cart-icon">
                 <button id="'.$value['bookid'].'" class="removefromcart" style="border:none;background-color:transparent;"><i class="fa fa-remove" style="color:red;font-weight:bold;"></i></button>
@@ -146,7 +146,7 @@ function checkoutcart()
                 '.$value['bookname'].' <strong class="product-quantity"> × 1</strong>
             </td>
             <td class="product-total">
-                <span class="amount">&#8373;'.$value['bookprice'].'</span>
+                <span class="amount">$'.$value['bookprice'].'</span>
             </td>
         </tr>';
         }
@@ -169,7 +169,7 @@ function paycart($token)
             '.$value['bookname'].' <strong class="product-quantity"> × 1</strong>
         </td>
         <td class="product-total">
-            <span class="amount">&#8373;'.$value['discountprice'].'</span>
+            <span class="amount">$'.$value['discountprice'].'</span>
         </td>
     </tr>';
     }

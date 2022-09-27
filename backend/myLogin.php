@@ -8,7 +8,7 @@ loginpagechecker('admin', 'users');
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>Nasea Books -Admin Login</title>
+    <title>Crystal Jewelry -Admin Login</title>
 
 
     <link rel="stylesheet" href="backend/css/bootstrap1.min.css" />
